@@ -1,8 +1,8 @@
-# Source Code for AAAI2026 Submission [I$^2$DTL: Intra- and Inter-modal Dual-Context Topological Learning for Emotion Recognition in Conversations]
+# I<sup>2</sup>DTL: Intra- and Inter-modal Dual-Context Topological Learning for Emotion Recognition in Conversations
 
 ## Overview
 
-In this work, we propose **I^2DTL**, a novel **I**ntra- and **I**nter-modal **D**ual-context **T**opological **L**earning network for ERC. Specifically, we first design an intra-modal context dynamic graph topological learning strategy, which captures both short- and long-range contextual dependencies within each modality (i.e., textual, acoustic, and visual) by leveraging the temporal dynamics of emotional cues. Then, we introduce an inter-modal context adaptive hypergraph topological learning network, which not only explores high-order cross-modal and cross-utterance contextual relationships but also refines multimodal representations to enhance discriminability via a cross-modal contrastive loss. 
+In this work, we propose **I<sup>2</sup>DTL**, a novel **I**ntra- and **I**nter-modal **D**ual-context **T**opological **L**earning network for ERC. Specifically, we first design an intra-modal context dynamic graph topological learning strategy, which captures both short- and long-range contextual dependencies within each modality (i.e., textual, acoustic, and visual) by leveraging the temporal dynamics of emotional cues. Then, we introduce an inter-modal context adaptive hypergraph topological learning network, which not only explores high-order cross-modal and cross-utterance contextual relationships but also refines multimodal representations to enhance discriminability via a cross-modal contrastive loss. 
 
 <div align="center">
     <p>
@@ -41,4 +41,5 @@ pandas == 2.2.3
 scikit-learn == 1.6.0 
 scipy == 1.14.1
 ```
+
 
